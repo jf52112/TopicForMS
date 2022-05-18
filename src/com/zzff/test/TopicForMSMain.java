@@ -8,5 +8,6 @@ public class TopicForMSMain {
         System.out.println("hotfix 第二次提交");
         System.out.println("master 第二次提交");
         System.out.println("master 第三次提交");
+        System.out.println("master 第n+1次提交");
     }
 }
