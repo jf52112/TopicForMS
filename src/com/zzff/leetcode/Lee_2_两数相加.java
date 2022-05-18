@@ -92,9 +92,6 @@ public class Lee_2_两数相加 {
 
             }
         }while (k1copy.next!=null||k2copy.next!=null);
-        /*do{
-
-        }while (k1copy.next!=null);*/
         k1Str=new StringBuilder(k1Str).reverse().toString();
         k2Str=new StringBuilder(k2Str).reverse().toString();
         BigDecimal bg1=new BigDecimal(k1Str);
@@ -147,6 +144,7 @@ public class Lee_2_两数相加 {
         k21.next=k22;
         addTwoNumbers(k11,k21);
         addTwoNumbers2(k11,k21);
+        System.out.println("hotfix添加");
         /*ListNode a=new ListNode(9);
         ListNode b=new ListNode(9);
         ListNode c=new ListNode(9);
